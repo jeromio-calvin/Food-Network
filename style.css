@@ -1,0 +1,172 @@
+body{
+    border: 1px solid black;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1;
+    font-size: 16px;
+    margin:0;
+}
+
+/* Prototype */
+.design-photo{
+    width: 100%;
+    border: 1px solid wheat;
+    text-align: center;
+}
+
+.design-photo img{
+    width: 50%;
+}
+
+/* Common */
+
+.flex-flow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-main{
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-image: linear-gradient(blue, #048df7);
+    font-weight: 400;
+    font-size: 17px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px  #a5d4ee;
+}
+
+
+/* Banner Section */
+.banner-section{
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+.banner-content{
+    padding-top: 15px;
+    padding-left: 80px;  
+}
+.heading-font h1{
+    color: #575757;
+    font-size: 2.5rem;
+    font-weight: 700;
+    word-spacing: -1px;
+    margin:20px 0;
+}
+.font-color-b{
+    color:#048df7
+}
+.content-item{
+    width: 50%;
+}
+.content-item img{
+    width: 80%;
+}
+.content-item p{
+    margin-top:35px;
+    line-height: 1.5;
+}
+.order-button{
+    margin-top: 35px;
+}
+
+/* About Section */
+.about-section{
+    background-image:url("images/Frame\ 57.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 130px 15px;
+}
+
+.about-section p{
+    width: 80%;
+}
+
+.contact-button{
+    margin-top: 70px;
+}
+
+
+/* Receipe Content */
+
+.reciepe-content{
+    padding: 30px 0;
+    text-align: center;
+}
+
+.reciepe-content h1{
+    color: #575757;
+}
+
+.reciepe-content p{
+    color: #575757;
+    width: 65%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/* Reciepe photo */
+
+.reciepe-item{
+    width: 22%;
+    padding: 15px;
+    border:1px solid #575757;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px gray;
+    margin: 0 30px;
+    
+}
+
+.res-content h1{
+    color: #575757;
+    font-size: 20px;
+    text-align: start;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.res-content p{
+    color: #575757;
+    text-align: start;
+    line-height: 1.5;
+    padding:20px 0;
+}
+
+.reciepe-item img{
+    width: 100%;
+    height: 300px;
+    border-radius: 13px;
+}
+
+/* Social media */
+
+.social-media{
+    width:85%;
+    margin:100px auto;
+    padding:30px 0;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px gray;
+
+}
+
+.social-content{
+    margin:0 100px;
+    text-align: center;
+}
+
+/* Footer Section*/
+footer{
+    text-align: center;
+    background-color:black;
+    color:#575757;
+}
+
+footer h1{
+    padding:20px 0;
+}
+
+footer p{
+    padding-bottom: 40px;
+}
